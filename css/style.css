@@ -80,15 +80,20 @@ a:hover {
 }
 .navbar-default .navbar-brand {
 	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #fff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 	color: #fff;
 }
+
+.connect {
+	font-size: 25px;
+}
 .navbar-default .navbar-brand span {
-	color: #FF00D6;
+	/*color: #FF00D6;*/
+	/*font-size: 40px;*/
 }
 .navbar-default .navbar-brand .fa {
 	margin-right: 3px;
@@ -97,6 +102,34 @@ a:hover {
 	margin-top: 7px;
 	padding: 6px 12px;
 }
+
+/* COLOR PEQUE */
+
+.p {
+	color: #FF3CE0;
+	font-size: 40px;
+}
+
+.ee {
+	color: #F75454;
+	font-size: 40px;
+}
+
+.q {
+	color: #0D87F8;
+	font-size: 40px;
+}
+
+.u {
+	color: #FFEE2A;
+	font-size: 40px;
+}
+
+.e {
+	color: #6BCE33;
+	font-size: 40px;
+}
+
 @media (max-width: 320px) {
 	.navbar-default .navbar-brand {
 		position: relative;
