@@ -88,8 +88,22 @@ a:hover {
 	color: #fff;
 }
 
+.social-contact {
+	list-style: none;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding-left: 0;
+
+}
+.navbar .container {
+	margin-left: 20px;
+}
+
 .connect {
-	font-size: 25px;
+	font-size: 40px;
 }
 .navbar-default .navbar-brand span {
 	/*color: #FF00D6;*/
@@ -107,27 +121,27 @@ a:hover {
 
 .p {
 	color: #FF3CE0;
-	font-size: 40px;
+	font-size: 90px;
 }
 
 .ee {
 	color: #F75454;
-	font-size: 40px;
+	font-size: 90px;
 }
 
 .q {
 	color: #0D87F8;
-	font-size: 40px;
+	font-size: 90px;
 }
 
 .u {
 	color: #FFEE2A;
-	font-size: 40px;
+	font-size: 90px;
 }
 
 .e {
 	color: #6BCE33;
-	font-size: 40px;
+	font-size: 90px;
 }
 
 @media (max-width: 320px) {
@@ -265,6 +279,9 @@ a:hover {
 	font-style: italic;
 	height: 39px;
 	border-width: 2px;
+	width: 25%;
+	text-align: center;
+	display: inline-block;
 }
 .form-control:focus {
 	border-color: #5cb85c;
@@ -345,7 +362,7 @@ a:hover {
 	}
 }
 .features {
-	background-color: #2DE795;
+	background-color: #00B465;
 	color: #fff;
 	padding-top: 70px;
 }
@@ -408,7 +425,6 @@ a:hover {
 	text-align: center;
 }
 .price-tables .btn {
-	margin-top: 30px;
 }
 .price-content {
 	position: relative;
@@ -421,11 +437,19 @@ a:hover {
 	background-color: #5cb85c;
 	color: #fff;
 	text-align: center;
-	border-radius: 4px 4px 0 0;
+	border-radius: 4px;
 	padding: 15px;
 }
 .price-body {
 	padding: 25px 25px 45px 25px;
+}
+
+.price-result {
+	background-color: #415843;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 }
 .price-body ul {
 	margin-bottom: 0;
@@ -442,6 +466,21 @@ a:hover {
 }
 .price-body li:last-child {
 	margin-bottom: 0;
+}
+
+.price {
+	font-size: 100px;
+	font-style: italic;
+}
+
+.features-prices {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.features-prices .col-md-4 {
+	margin-top: 15px;
 }
 .pop {
 	position: absolute;
@@ -530,11 +569,18 @@ a:hover {
 	color: #fff;
 	padding: 70px 0 80px 0;
 }
+.contact h2 {
+	text-align: center;
+}
+
 .contact h3 {
 	text-align: center;
 }
 .contact .title {
-	margin-top: 70px;
+}
+
+.contact .row {
+	margin-top: 10px;
 }
 .contact textarea.form-control {
 	height: 150px;
@@ -544,6 +590,10 @@ a:hover {
 }
 .contact a:hover {
 	color: #d9534f;
+}
+
+.contact p {
+	text-align: center;
 }
 .required {
 	color: #d9534f;
